@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:containers">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containercomponentfolder</sv:value>
+  </sv:property>
+  <sv:node sv:name="base">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containercomponentfolder</sv:value>
+    </sv:property>
+    <sv:node sv:name="top">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Span</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containercomponentfolder</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:lastmodified" sv:type="Date">
+        <sv:value>2016-08-05T20:11:54.273-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+      <sv:node sv:name="imagecomponent">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>Image</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternameprefixes" sv:type="String" sv:multiple="true">
+          <sv:value>@1470442282$["and",{"state":"newengland-1470442165799"}]</sv:value>
+          <sv:value>@1470442282$["and",{"state":"newengland-1470442165799"}]</sv:value>
+          <sv:value>@1470442282$["and",{"state":"newengland-1470442165799"}]</sv:value>
+          <sv:value/>
+          <sv:value/>
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+          <sv:value>document</sv:value>
+          <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+          <sv:value>document</sv:value>
+          <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>off</sv:value>
+          <sv:value>/content/gallery/visualr/banners/amsterdam.png</sv:value>
+          <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
+          <sv:value>off</sv:value>
+          <sv:value>/content/gallery/visualr/banners/boston.png</sv:value>
+          <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>image-component</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.Item</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="pagenotfound">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containercomponentfolder</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

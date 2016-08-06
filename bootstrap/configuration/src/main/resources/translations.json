@@ -1,0 +1,58 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-banner-document": "new banner document",
+      "new-resource-bundle": "new resource bundle",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types": {"visualr:bannerdocument":   {
+    "en":     {
+      "visualr:content": "Content",
+      "visualr:link": "Link",
+      "jcr:name": "Banner",
+      "visualr:image": "Image",
+      "visualr:title": "Title"
+    },
+    "nl":     {
+      "visualr:content": "Inhoud",
+      "visualr:link": "Link",
+      "jcr:name": "Banner",
+      "visualr:image": "Afbeelding",
+      "visualr:title": "Titel"
+    },
+    "fr":     {
+      "visualr:content": "Contenu",
+      "visualr:link": "Lien",
+      "jcr:name": "Bannière",
+      "visualr:image": "Image",
+      "visualr:title": "Titre"
+    },
+    "de":     {
+      "visualr:content": "Inhalt",
+      "visualr:link": "Link",
+      "jcr:name": "Banner",
+      "visualr:image": "Abbildung",
+      "visualr:title": "Titel"
+    }
+  }}
+}

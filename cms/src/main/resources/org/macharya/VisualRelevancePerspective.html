@@ -1,0 +1,60 @@
+<html xmlns:wicket="http://wicket.apache.org/">
+<wicket:panel>
+  <div ng-app="vrApp" ng-controller="vrCtrl">
+    <div id="info" class="info" style="display: none">
+      <div class="dialog-toolbar">
+        <span class="form-message"></span>
+        <span class="dialog-open-button" style="display:none"> &#10151; </span>
+        <span class="dialog-close-button"> &#x274C; </span>
+      </div>
+      <div class="dialog-main"></div>
+      <div class="target-fields">
+        <form ng-submit="submit()" class="form-chars">
+          Comes from:<br/>
+          <select ng-model="tgtchar" class="tgtchars vr-select" name="characteristic">
+            <option ng-repeat="item in tgtchars" value="{{item.key}}" ng-selected="'country' == item.value">{{item.value}}</option>
+          </select>
+          <br/>
+          <br/>
+
+          <div>
+            Target Name:<br/>
+            <input type="text" class="target-name" placeholder="For Example: North America" name="targetName" ng-model="formdata.targetname"/>
+          </div>
+          <div>
+            Target Value:<br/>
+            <input type="text" class="target-values" name="targetValues" ng-model="formdata.targetvalues"/>
+          </div>
+          <br/> <br/>
+          <button class="button-save">Save</button>
+        </form>
+
+      </div>
+
+    </div>
+    <div id="visual-relevance-perspective">
+      <div class="top-container">
+        <span wicket:id="perspective-heading" class="panel-heading"></span>
+        <span id="label-container"></span>
+
+        <form wicket:id="formx" class="buttons-form">
+          <input style="display:none" wicket:id="textfield" class="selected-values"/>
+          <select ng-model="geolayers" class="options vr-select" >
+            <option ng-repeat="item in geoLayers" value="{{item.key}}" ng-selected="'country' == item.value">{{item.value}}</option>
+          </select>
+          <button wicket:id="submit" class="geo-button">save</button>
+        </form>
+      </div>
+      <div id="map" class="map" style="z-index:999999999"></div>
+
+    </div>
+    <!--
+    <div ng-app="HelloWorldApp">
+      <div ng-controller="HelloWorldController">
+        <h1>{{greeting}}</h1>
+      </div>
+    </div>
+    -->
+  </div>
+</wicket:panel>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="country" esv:merge="combine">
+  <sv:node sv:name="westcoast-1470420093008">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>west coast</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>OR</sv:value>
+      <sv:value>WA</sv:value>
+      <sv:value>CA</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="centraleuropean-1470419625019">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Central European</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>UK</sv:value>
+      <sv:value>ES</sv:value>
+      <sv:value>NL</sv:value>
+      <sv:value>BE</sv:value>
+      <sv:value>CH</sv:value>
+      <sv:value>DE</sv:value>
+      <sv:value>DK</sv:value>
+      <sv:value>AT</sv:value>
+      <sv:value>IT</sv:value>
+      <sv:value>FR</sv:value>
+      <sv:value>LU</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="westafrican-1470420269439">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>West African</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>GM</sv:value>
+      <sv:value>LR</sv:value>
+      <sv:value>BF</sv:value>
+      <sv:value>GH</sv:value>
+      <sv:value>GN</sv:value>
+      <sv:value>BJ</sv:value>
+      <sv:value>SN</sv:value>
+      <sv:value>NE</sv:value>
+      <sv:value>MA</sv:value>
+      <sv:value>GW</sv:value>
+      <sv:value>EH</sv:value>
+      <sv:value>MR</sv:value>
+      <sv:value>TG</sv:value>
+      <sv:value>ML</sv:value>
+      <sv:value>DZ</sv:value>
+      <sv:value>SL</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="state">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>targeting:characteristic</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:collector" sv:type="String">
+    <sv:value>geoStateProvince</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+    <sv:value>org.macharya.targeting.StateProvinceScorer</sv:value>
+  </sv:property>
+  <sv:node sv:name="pacificstates-1470442135376">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Pacific States</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>OR</sv:value>
+      <sv:value>CA</sv:value>
+      <sv:value>WA</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newengland-1470442165799">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>New England</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>ME</sv:value>
+      <sv:value>MA</sv:value>
+      <sv:value>NH</sv:value>
+      <sv:value>VT</sv:value>
+      <sv:value>RI</sv:value>
+      <sv:value>CT</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="easternholland-1470449335130">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:targetgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Eastern Holland</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+      <sv:value>DR</sv:value>
+      <sv:value>FL</sv:value>
+      <sv:value>GE</sv:value>
+      <sv:value>GR</sv:value>
+      <sv:value>OV</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
