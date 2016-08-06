@@ -12,3 +12,14 @@
 </div>
 -->
 <@hst.include ref="container"/>
+<ul class="three-column-ul">
+<li>
+<@hst.include ref="left-container"/>
+</li>
+<li>
+<@hst.include ref="center-container"/>
+</li>
+<li>
+<@hst.include ref="right-container"/>
+</li>
+</ul>

@@ -16,3 +16,6 @@
 [visualr:geojson] > hippostd:relaxed, hippotranslation:translated, visualr:basedocument
   orderable
 
+[visualr:newsdocument] > hippostd:relaxed, hippotranslation:translated, visualr:basedocument
+  orderable
+

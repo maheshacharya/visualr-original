@@ -3,56 +3,112 @@
     "en":     {
       "new-banner-folder": "new banner folder",
       "new-banner-document": "new banner document",
+      "new-news-document": "new news item",
       "new-resource-bundle": "new resource bundle",
+      "new-news-folder": "new news item folder",
       "new-untranslated-folder": "new untranslated folder"
     },
     "nl":     {
       "new-banner-folder": "nieuwe banner map",
       "new-banner-document": "nieuwe banner",
+      "new-news-document": "nieuw nieuwsbericht",
       "new-resource-bundle": "nieuwe resource bundle",
+      "new-news-folder": "nieuwe nieuwsmap",
       "new-untranslated-folder": "nieuwe onvertaalde map"
     },
     "de":     {
       "new-banner-folder": "Neuer Banner-Ordner",
       "new-banner-document": "Neues Banner",
+      "new-news-document": "Neue News",
       "new-resource-bundle": "Neues Resource-Bundle",
-      "new-untranslated-folder": "Neuer nicht Ã¼bersetzter Ordner"
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
     },
     "fr":     {
-      "new-banner-folder": "nouveau dossier banniÃ¨re",
-      "new-banner-document": "nouvelle banniÃ¨re",
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-news-document": "nouveau message d'info",
       "new-resource-bundle": "nouveau resource bundle",
+      "new-news-folder": "nouveau dossier messages d'info",
       "new-untranslated-folder": "nouveau dossier non traduit"
     }
   },
-  "hippo:types": {"visualr:bannerdocument":   {
-    "en":     {
-      "visualr:content": "Content",
-      "visualr:link": "Link",
-      "jcr:name": "Banner",
-      "visualr:image": "Image",
-      "visualr:title": "Title"
+  "hippo:types":   {
+    "visualr:bannerdocument":     {
+      "en":       {
+        "visualr:content": "Content",
+        "visualr:link": "Link",
+        "jcr:name": "Banner",
+        "visualr:image": "Image",
+        "visualr:title": "Title"
+      },
+      "nl":       {
+        "visualr:content": "Inhoud",
+        "visualr:link": "Link",
+        "jcr:name": "Banner",
+        "visualr:image": "Afbeelding",
+        "visualr:title": "Titel"
+      },
+      "fr":       {
+        "visualr:content": "Contenu",
+        "visualr:link": "Lien",
+        "jcr:name": "Bannière",
+        "visualr:image": "Image",
+        "visualr:title": "Titre"
+      },
+      "de":       {
+        "visualr:content": "Inhalt",
+        "visualr:link": "Link",
+        "jcr:name": "Banner",
+        "visualr:image": "Abbildung",
+        "visualr:title": "Titel"
+      }
     },
-    "nl":     {
-      "visualr:content": "Inhoud",
-      "visualr:link": "Link",
-      "jcr:name": "Banner",
-      "visualr:image": "Afbeelding",
-      "visualr:title": "Titel"
-    },
-    "fr":     {
-      "visualr:content": "Contenu",
-      "visualr:link": "Lien",
-      "jcr:name": "BanniÃ¨re",
-      "visualr:image": "Image",
-      "visualr:title": "Titre"
-    },
-    "de":     {
-      "visualr:content": "Inhalt",
-      "visualr:link": "Link",
-      "jcr:name": "Banner",
-      "visualr:image": "Abbildung",
-      "visualr:title": "Titel"
+    "visualr:newsdocument":     {
+      "en":       {
+        "visualr:author": "Author",
+        "jcr:name": "News Item",
+        "visualr:image": "Image",
+        "visualr:location": "Location",
+        "visualr:introduction": "Introduction",
+        "visualr:content": "Content",
+        "visualr:date": "Date",
+        "visualr:source": "Source",
+        "visualr:title": "Title"
+      },
+      "nl":       {
+        "visualr:author": "Auteur",
+        "jcr:name": "Nieuwsbericht",
+        "visualr:image": "Afbeelding",
+        "visualr:location": "Locatie",
+        "visualr:introduction": "Introductie",
+        "visualr:content": "Inhoud",
+        "visualr:date": "Datum",
+        "visualr:source": "Bron",
+        "visualr:title": "Titel"
+      },
+      "de":       {
+        "visualr:author": "Verfasser",
+        "jcr:name": "News",
+        "visualr:image": "Abbildung",
+        "visualr:location": "Standort",
+        "visualr:introduction": "Einführung",
+        "visualr:content": "Inhalt",
+        "visualr:date": "Datum",
+        "visualr:source": "Quelle",
+        "visualr:title": "Titel"
+      },
+      "fr":       {
+        "visualr:author": "Auteur",
+        "jcr:name": "Message d'info",
+        "visualr:image": "Image",
+        "visualr:location": "Lieu",
+        "visualr:introduction": "Introduction",
+        "visualr:content": "Contenu",
+        "visualr:date": "Date",
+        "visualr:source": "Source",
+        "visualr:title": "Titre"
+      }
     }
-  }}
+  }
 }

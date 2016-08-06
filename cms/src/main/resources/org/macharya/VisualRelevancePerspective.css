@@ -67,6 +67,10 @@ body {
 
 }
 
+.vr-select option{
+background:rgba(0,0,0,0.8);
+}
+
 .info {
 
     max-width: 300px;
@@ -139,6 +143,7 @@ input[type='text'] {
     height: 28px;
     margin-bottom: 4px;
     font-size: 16px;
+    color:#000;
 
 }
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="centraleuropean-1470491307779">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>targeting:persona</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:alterego" sv:type="String">
+    <sv:value>centraleuropean-1470491307779-alterego</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:description" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="targeting:name" sv:type="String">
+    <sv:value>Central European</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:quote" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="targeting:segmentDescription" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="targeting:segmentName" sv:type="String">
+    <sv:value>Hippo Connect Amsterdam</sv:value>
+  </sv:property>
+  <sv:node sv:name="targeting:expression">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:andexpression</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

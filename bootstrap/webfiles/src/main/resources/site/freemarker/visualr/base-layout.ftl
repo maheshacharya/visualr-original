@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="<@hst.webfile  path="/css/bootstrap.css"/>" type="text/css"/>
+      <link rel="stylesheet" href="<@hst.webfile  path="/css/visualr.css"/>" type="text/css"/>
     <@hst.defineObjects/>
     <#if hstRequest.requestContext.cmsRequest>
       <link rel="stylesheet" href="<@hst.webfile  path="/css/cms-request.css"/>" type="text/css"/>
+
     </#if>
 <@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
 </head>

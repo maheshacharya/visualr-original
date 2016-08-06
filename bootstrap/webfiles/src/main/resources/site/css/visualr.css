@@ -1,0 +1,18 @@
+.three-column-ul{
+   list-style:none;
+   padding:0px;
+   margin:0px;
+}
+
+.three-column-ul li{
+  display:inline-block;
+  max-width:33%;
+  vertical-align:top;
+  padding:2px;
+}
+
+.three-column-ul li img{
+max-width:100%;
+
+}
+
